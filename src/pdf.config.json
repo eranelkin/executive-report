@@ -1,0 +1,51 @@
+{
+  "pagesByTypes": {
+    "poc": [
+      "cover_first",
+      "discovery_organization",
+      "discovery_digital",
+      "risk_organization_ranks",
+      "risk_organization_techs",
+      "risk_digital",
+      "cover_end"
+    ],
+    "downgraded": ["cover_first", "cover", "discovery_organization", "discovery_subsidiaries"]
+  },
+  "pages": {
+    "cover_first": {
+      "type": "cover_first",
+      "titleKey": "",
+      "subtitleKey": "",
+      "legend": [
+        { "key": "discovery", "page": 2 },
+        { "key": "risk", "page": 4 }
+      ]
+    },
+    "discovery_organization": { "type": "discovery", "titleKey": "discovery", "subtitleKey": "organization" },
+    "discovery_subsidiaries": {
+      "typeKey": "discovery",
+      "subtitleKey": "subsidiaries",
+      "titleKey": "discovery",
+      "subsidiariesPerPage": 6
+    },
+    "discovery_chart": { "type": "discovery", "titleKey": "discovery", "subtitleKey": "organization" },
+    "discovery_digital": { "type": "discovery", "titleKey": "discovery", "subtitleKey": "digital" },
+    "risk_organization_ranks": { "type": "risk", "titleKey": "risk", "subtitleKey": "organization" },
+    "risk_organization_techs": { "type": "risk", "titleKey": "risk", "subtitleKey": "organization" },
+    "risk_subsidiaries": { "pages": 1, "type": "risk", "titleKey": "risk", "subtitleKey": "subsidiariesRisk" },
+    "risk_digital": { "type": "risk", "titleKey": "risk", "subtitleKey": "digital" },
+    "test": { "type": "risk", "titleKey": "risk", "subtitleKey": "digital" },
+    "cover_end": { "type": "cover_end", "titleKey": "", "subtitleKey": "" }
+  },
+  "size": {
+    "width": 816,
+    "height": 1056
+  },
+  "colors": {
+    "discovery": "#4B7AE7",
+    "risk": "#D63E3E",
+    "remediation": "#1AA964"
+  },
+  "downgraded": {},
+  "full": {}
+}

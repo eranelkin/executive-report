@@ -1,0 +1,39 @@
+.risk-organization-ranks {
+  & .indicator-ranks {
+    margin-right: 25px;
+    align-self: center;
+  }
+
+  & .vertical-border {
+    border-left: 1px solid #0000001f;
+    position: relative;
+  }
+
+  & .vertical-border::after {
+    padding: 0;
+    margin: 0;
+    content: '';
+    width: 1px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    left: -1px;
+    top: -100px;
+  }
+
+  & .vertical-border::before {
+    padding: 0;
+    margin: 0;
+    content: '';
+    width: 1px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    left: -1px;
+    bottom: 0px;
+  }
+
+  & .data-panel-container {
+    padding-left: 24px;
+  }
+}

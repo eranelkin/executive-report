@@ -1,0 +1,17 @@
+.chip-panel {
+  & .MuiChip-root {
+    border-radius: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    background-color: #ecedff;
+    height: 20px;
+    & .MuiChip-label {
+      color: '#454549';
+      font-family: 'Rubik';
+    }
+  }
+}
+
+.discovery-digital-bars-items {
+  padding-right: 10px;
+}
